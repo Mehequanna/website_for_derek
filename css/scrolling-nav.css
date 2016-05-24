@@ -238,3 +238,18 @@ of those sections to manage the look and feel of the site. */
       color: black;
       background: #fff;
 }
+
+/* Wordpress button class*/
+.wpBtn{
+    background: #007FFF;
+}
+
+.wpBtn:before{
+      font-family: "FontAwesome";
+      content: "\f19a"; /* add linkedin icon */
+}
+
+.wpBtn:hover{
+      color: #007FFF;
+      background: #fff;
+}
