@@ -14,19 +14,6 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
 .navbar {
   color: white;
   background-color: black;
@@ -51,6 +38,29 @@ html {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
+
+#team {
+  max-height: 100%
+}
+
+#teamdiv h1 {
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+#teamdiv img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  min-width: 75px;
+  width: 15%;
+  max-width: 250px;
+}
+
+#teamdiv p {
+  max-width: 90%;
+  margin-top: 15px;
+}
 
 .title1 {
   border-bottom: 3px solid white;
@@ -135,7 +145,7 @@ of those sections to manage the look and feel of the site. */
 
 .team-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #fff;
 }
@@ -258,4 +268,66 @@ of those sections to manage the look and feel of the site. */
 .wpBtn:hover{
       color: #007FFF;
       background: #fff;
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+@media(max-width:990px) {
+  #teamdiv {
+    padding-top: none;
+  }
+  .team1 img,
+  .team3 img {
+    float: left;
+    margin: 5px;
+    clear: left;
+    display: block;
+  }
+
+  .team2 img {
+    float: right;
+    margin: 5px;
+    display: block;
+  }
+
+  .team1text,
+  .team2text,
+  .team3text {
+    padding: 5px 0;
+    font-size: 1rem;
+    text-align: justify;;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem
+  }
+
+  .col-lg-12 {
+    font-size: 1.25rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .about-section p {
+    max-width: 95%;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 1.5rem;
+  }
 }
