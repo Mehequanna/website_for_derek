@@ -35,6 +35,10 @@ html {
   background-color: red;
 }
 
+.services-section {
+  
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
@@ -111,9 +115,9 @@ of those sections to manage the look and feel of the site. */
 .about-section,
 .contact-section {
   background-size: 100% 100%;
-  -webkit-box-shadow: inset 100px 100px 300px 400px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 100px 100px 300px 400px rgba(0,0,0,0.75);
-  box-shadow: inset 100px 100px 300px 400px rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 100px 100px 300px 1000px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 100px 100px 300px 1000px rgba(0,0,0,0.75);
+  box-shadow: inset 100px 100px 300px 1000px rgba(0,0,0,0.75);
   color: white;
   text-shadow: -1px 2px 0px rgba(0, 0, 0, 1);
 }
@@ -306,7 +310,7 @@ of those sections to manage the look and feel of the site. */
   .team3text {
     padding: 5px 0;
     font-size: 1rem;
-    text-align: justify;;
+    padding-top: 5%;
   }
 
   h1 {
@@ -321,6 +325,15 @@ of those sections to manage the look and feel of the site. */
     font-size: 1.25rem;
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .col-md-4 {
+    display: block;
+    clear: both;
+  }
+
+  .col-md-4 p {
+    vertical-align: middle;
   }
 
   .about-section p {
