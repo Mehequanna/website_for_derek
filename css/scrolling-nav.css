@@ -14,6 +14,8 @@ html {
     height: 100%;
 }
 
+/* Nav Bar Modifications */
+
 .navbar {
   color: white;
   background-color: black;
@@ -35,32 +37,52 @@ html {
   background-color: red;
 }
 
-.services-section {
-
+.navbar-toggle {
+  background-color: white;
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
-of those sections to manage the look and feel of the site. */
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: red;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: red;
+}
+
+/* Content Sections */
 
 #team {
   max-height: 100%
 }
 
-#teamdiv h1 {
-  margin-bottom: 50px;
+#teamdiv h1,
+.services-section h1 {
+  margin-bottom: 30px;
   padding-bottom: 10px;
   border-bottom: 2px solid black;
 }
 
-#teamdiv img {
+#teamdiv img,
+.services-section img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
   margin-bottom: 10px;
-  min-width: 75px;
-  /*width: 15%;*/
-  max-width: 250px;
+  max-width: 100px;
 }
 
 #teamdiv p {
@@ -76,16 +98,6 @@ of those sections to manage the look and feel of the site. */
 .subtitle1 {
   position: relative;
   top: 150px;
-}
-
-.navbar-default .navbar-brand {
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: red;
 }
 
 .intro-section {
@@ -129,7 +141,7 @@ of those sections to manage the look and feel of the site. */
   background-color: black;
 }
 
-.team-title {
+.small-title {
   font-size: 1.5rem;
 }
 
@@ -142,7 +154,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section h1 {
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
 }
 
 .services-section {
@@ -162,22 +174,6 @@ of those sections to manage the look and feel of the site. */
 .team-section img {
   display: block;
   margin: 0 auto;
-}
-
-.navbar-toggle {
-  background-color: white;
-}
-
-.navbar-default .navbar-toggle {
-  border: none;
-}
-
-.navbar-default .navbar-toggle:hover {
-  background-color: red;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
 }
 
 .logo {
@@ -284,6 +280,8 @@ of those sections to manage the look and feel of the site. */
       background: #fff;
 }
 
+/* Media Queries for Responsiveness */
+
 @media(min-width:767px) {
   .navbar {
     padding: 20px 0;
@@ -302,14 +300,17 @@ of those sections to manage the look and feel of the site. */
     padding-top: none;
   }
   .team1 img,
-  .team3 img {
+  .team3 img,
+  .services1 img,
+  .services3 img {
     float: left;
     margin: 5px;
     clear: left;
     display: block;
   }
 
-  .team2 img {
+  .team2 img,
+  .services2 img {
     float: right;
     margin: 5px;
     display: block;
@@ -317,7 +318,10 @@ of those sections to manage the look and feel of the site. */
 
   .team1text,
   .team2text,
-  .team3text {
+  .team3text,
+  .services1text,
+  .services2text,
+  .services3text {
     padding: 5px 0;
     font-size: 1rem;
     padding-top: 3%;
@@ -354,11 +358,12 @@ of those sections to manage the look and feel of the site. */
     font-size: 1.5rem;
   }
 
-  .team-title {
+  .small-title {
     font-size: 1.25rem;
   }
 
-  #teamdiv p {
+  #teamdiv p,
+  #services p {
     width: 85%;
   }
 }
