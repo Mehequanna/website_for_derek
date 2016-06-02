@@ -76,8 +76,8 @@ html {
   border-bottom: 2px solid black;
 }
 
-#teamdiv img,
-.services-section img {
+#teamdiv img
+ {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
@@ -87,6 +87,13 @@ html {
 
 #teamdiv p {
   margin-top: 15px;
+}
+
+.services-section img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 100px;
 }
 
 .title1 {
