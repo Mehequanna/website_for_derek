@@ -9,8 +9,8 @@ CSS, Bootstrap, and JS.
 
 ## Usage
 To view the site, you can go to: https://mehequanna.github.io/website_for_derek.
-To use the code, you can clone the repository at [https://github.com/Mehequanna/website_for_derek](https://github.com/Mehequanna/website_for_derek).
-Fork the repository and double click on index.html.
+
+To view the code, you can clone the repository at [https://github.com/Mehequanna/website_for_derek](https://github.com/Mehequanna/website_for_derek).
 
 ## Author
 Stephen Emery
@@ -20,4 +20,4 @@ Photos by UnSplash, Scrolling Navigation by StartBootstrap, and icons by FontAwe
 
 ##License
 This work can be used under the The MIT License.
-Copyright (c) 2016 Ryan Conklin & Stephen Emery
+Copyright (c) 2016 Stephen Emery
