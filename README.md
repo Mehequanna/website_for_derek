@@ -4,6 +4,8 @@ Derek Sherman Consulting Website
 ## Features
 This site will serve as the landing page for Derek Sherman Consulting.
 
+![screenshot of project](derekconsulting.png)
+
 ##Languages
 CSS, Bootstrap, and JS.
 
