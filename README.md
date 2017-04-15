@@ -6,7 +6,7 @@ This site will serve as the landing page for Derek Sherman Consulting.
 
 ![screenshot of project](derekconsulting.png)
 
-##Languages
+## Languages
 CSS, Bootstrap, and JS.
 
 ## Usage
@@ -20,6 +20,6 @@ Stephen Emery
 ## Resources
 Photos by UnSplash, Scrolling Navigation by StartBootstrap, and icons by FontAwesome.
 
-##License
+## License
 This work can be used under the The MIT License.
 Copyright (c) 2016 Stephen Emery
